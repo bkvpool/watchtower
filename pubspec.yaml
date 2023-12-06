@@ -1,0 +1,37 @@
+name: prometheus_analytics
+description: "Prometheus analytics"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^5.4.0
+  fl_chart: ^0.65.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_mobx: 2.2.0
+  graphic: ^2.2.1
+  intl: ^0.18.1
+  mobx: 2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: 2.4.7
+  flutter_lints: 3.0.1
+  mobx_codegen: 2.4.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
